@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98D23BDE1DE29C6B00A7184D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23BDD1DE29C6B00A7184D /* main.m */; };
+		98D23BE11DE29C6B00A7184D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23BE01DE29C6B00A7184D /* AppDelegate.m */; };
+		98D23BE41DE29C6B00A7184D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23BE31DE29C6B00A7184D /* ViewController.m */; };
+		98D23BE71DE29C6B00A7184D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D23BE51DE29C6B00A7184D /* Main.storyboard */; };
+		98D23BE91DE29C6B00A7184D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D23BE81DE29C6B00A7184D /* Assets.xcassets */; };
+		98D23BEC1DE29C6B00A7184D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D23BEA1DE29C6B00A7184D /* LaunchScreen.storyboard */; };
+		98D23BF71DE29C6B00A7184D /* NumKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23BF61DE29C6B00A7184D /* NumKeyBoardTests.m */; };
+		98D23C021DE29C6B00A7184D /* NumKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23C011DE29C6B00A7184D /* NumKeyBoardUITests.m */; };
+		98D23C121DE29CC700A7184D /* ZZNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D23C111DE29CC700A7184D /* ZZNumberField.m */; };
+		98D23C221DE2A08900A7184D /* NumberPadButtonUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C161DE2A08900A7184D /* NumberPadButtonUp.png */; };
+		98D23C231DE2A08900A7184D /* NumberPadButtonUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C171DE2A08900A7184D /* NumberPadButtonUp@2x.png */; };
+		98D23C241DE2A08900A7184D /* NumberPadButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C181DE2A08900A7184D /* NumberPadButtonDown.png */; };
+		98D23C251DE2A08900A7184D /* NumberPadDeleteDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C191DE2A08900A7184D /* NumberPadDeleteDown.png */; };
+		98D23C261DE2A08900A7184D /* NumberPadDeleteDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C1A1DE2A08900A7184D /* NumberPadDeleteDown@2x.png */; };
+		98D23C271DE2A08900A7184D /* NumberPadDeleteUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C1B1DE2A08900A7184D /* NumberPadDeleteUp.png */; };
+		98D23C281DE2A08900A7184D /* NumberPadDeleteUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C1C1DE2A08900A7184D /* NumberPadDeleteUp@2x.png */; };
+		98D23C291DE2A08900A7184D /* NumberPadButtonDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 98D23C1D1DE2A08900A7184D /* NumberPadButtonDown@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98D23BF31DE29C6B00A7184D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D23BD11DE29C6A00A7184D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D23BD81DE29C6B00A7184D;
+			remoteInfo = NumKeyBoard;
+		};
+		98D23BFE1DE29C6B00A7184D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98D23BD11DE29C6A00A7184D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98D23BD81DE29C6B00A7184D;
+			remoteInfo = NumKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98D23BD91DE29C6B00A7184D /* NumKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D23BDD1DE29C6B00A7184D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98D23BDF1DE29C6B00A7184D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98D23BE01DE29C6B00A7184D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98D23BE21DE29C6B00A7184D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98D23BE31DE29C6B00A7184D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98D23BE61DE29C6B00A7184D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D23BE81DE29C6B00A7184D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98D23BEB1DE29C6B00A7184D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98D23BED1DE29C6B00A7184D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D23BF21DE29C6B00A7184D /* NumKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D23BF61DE29C6B00A7184D /* NumKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumKeyBoardTests.m; sourceTree = "<group>"; };
+		98D23BF81DE29C6B00A7184D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D23BFD1DE29C6B00A7184D /* NumKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D23C011DE29C6B00A7184D /* NumKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumKeyBoardUITests.m; sourceTree = "<group>"; };
+		98D23C031DE29C6B00A7184D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D23C101DE29CC700A7184D /* ZZNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZNumberField.h; sourceTree = "<group>"; };
+		98D23C111DE29CC700A7184D /* ZZNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZNumberField.m; sourceTree = "<group>"; };
+		98D23C161DE2A08900A7184D /* NumberPadButtonUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadButtonUp.png; sourceTree = "<group>"; };
+		98D23C171DE2A08900A7184D /* NumberPadButtonUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadButtonUp@2x.png"; sourceTree = "<group>"; };
+		98D23C181DE2A08900A7184D /* NumberPadButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadButtonDown.png; sourceTree = "<group>"; };
+		98D23C191DE2A08900A7184D /* NumberPadDeleteDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadDeleteDown.png; sourceTree = "<group>"; };
+		98D23C1A1DE2A08900A7184D /* NumberPadDeleteDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadDeleteDown@2x.png"; sourceTree = "<group>"; };
+		98D23C1B1DE2A08900A7184D /* NumberPadDeleteUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NumberPadDeleteUp.png; sourceTree = "<group>"; };
+		98D23C1C1DE2A08900A7184D /* NumberPadDeleteUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadDeleteUp@2x.png"; sourceTree = "<group>"; };
+		98D23C1D1DE2A08900A7184D /* NumberPadButtonDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NumberPadButtonDown@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98D23BD61DE29C6B00A7184D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BEF1DE29C6B00A7184D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BFA1DE29C6B00A7184D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98D23BD01DE29C6A00A7184D = {
+			isa = PBXGroup;
+			children = (
+				98D23BDB1DE29C6B00A7184D /* NumKeyBoard */,
+				98D23BF51DE29C6B00A7184D /* NumKeyBoardTests */,
+				98D23C001DE29C6B00A7184D /* NumKeyBoardUITests */,
+				98D23BDA1DE29C6B00A7184D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98D23BDA1DE29C6B00A7184D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98D23BD91DE29C6B00A7184D /* NumKeyBoard.app */,
+				98D23BF21DE29C6B00A7184D /* NumKeyBoardTests.xctest */,
+				98D23BFD1DE29C6B00A7184D /* NumKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98D23BDB1DE29C6B00A7184D /* NumKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				98D23C0F1DE29CA200A7184D /* ZZNumberField */,
+				98D23BDF1DE29C6B00A7184D /* AppDelegate.h */,
+				98D23BE01DE29C6B00A7184D /* AppDelegate.m */,
+				98D23BE21DE29C6B00A7184D /* ViewController.h */,
+				98D23BE31DE29C6B00A7184D /* ViewController.m */,
+				98D23BE51DE29C6B00A7184D /* Main.storyboard */,
+				98D23BE81DE29C6B00A7184D /* Assets.xcassets */,
+				98D23BEA1DE29C6B00A7184D /* LaunchScreen.storyboard */,
+				98D23BED1DE29C6B00A7184D /* Info.plist */,
+				98D23BDC1DE29C6B00A7184D /* Supporting Files */,
+			);
+			path = NumKeyBoard;
+			sourceTree = "<group>";
+		};
+		98D23BDC1DE29C6B00A7184D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98D23BDD1DE29C6B00A7184D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98D23BF51DE29C6B00A7184D /* NumKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				98D23BF61DE29C6B00A7184D /* NumKeyBoardTests.m */,
+				98D23BF81DE29C6B00A7184D /* Info.plist */,
+			);
+			path = NumKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		98D23C001DE29C6B00A7184D /* NumKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98D23C011DE29C6B00A7184D /* NumKeyBoardUITests.m */,
+				98D23C031DE29C6B00A7184D /* Info.plist */,
+			);
+			path = NumKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+		98D23C0F1DE29CA200A7184D /* ZZNumberField */ = {
+			isa = PBXGroup;
+			children = (
+				98D23C101DE29CC700A7184D /* ZZNumberField.h */,
+				98D23C111DE29CC700A7184D /* ZZNumberField.m */,
+				98D23C161DE2A08900A7184D /* NumberPadButtonUp.png */,
+				98D23C171DE2A08900A7184D /* NumberPadButtonUp@2x.png */,
+				98D23C181DE2A08900A7184D /* NumberPadButtonDown.png */,
+				98D23C191DE2A08900A7184D /* NumberPadDeleteDown.png */,
+				98D23C1A1DE2A08900A7184D /* NumberPadDeleteDown@2x.png */,
+				98D23C1B1DE2A08900A7184D /* NumberPadDeleteUp.png */,
+				98D23C1C1DE2A08900A7184D /* NumberPadDeleteUp@2x.png */,
+				98D23C1D1DE2A08900A7184D /* NumberPadButtonDown@2x.png */,
+			);
+			path = ZZNumberField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98D23BD81DE29C6B00A7184D /* NumKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D23C061DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoard" */;
+			buildPhases = (
+				98D23BD51DE29C6B00A7184D /* Sources */,
+				98D23BD61DE29C6B00A7184D /* Frameworks */,
+				98D23BD71DE29C6B00A7184D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NumKeyBoard;
+			productName = NumKeyBoard;
+			productReference = 98D23BD91DE29C6B00A7184D /* NumKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98D23BF11DE29C6B00A7184D /* NumKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D23C091DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoardTests" */;
+			buildPhases = (
+				98D23BEE1DE29C6B00A7184D /* Sources */,
+				98D23BEF1DE29C6B00A7184D /* Frameworks */,
+				98D23BF01DE29C6B00A7184D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D23BF41DE29C6B00A7184D /* PBXTargetDependency */,
+			);
+			name = NumKeyBoardTests;
+			productName = NumKeyBoardTests;
+			productReference = 98D23BF21DE29C6B00A7184D /* NumKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98D23BFC1DE29C6B00A7184D /* NumKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98D23C0C1DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoardUITests" */;
+			buildPhases = (
+				98D23BF91DE29C6B00A7184D /* Sources */,
+				98D23BFA1DE29C6B00A7184D /* Frameworks */,
+				98D23BFB1DE29C6B00A7184D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98D23BFF1DE29C6B00A7184D /* PBXTargetDependency */,
+			);
+			name = NumKeyBoardUITests;
+			productName = NumKeyBoardUITests;
+			productReference = 98D23BFD1DE29C6B00A7184D /* NumKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98D23BD11DE29C6A00A7184D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zmMac;
+				TargetAttributes = {
+					98D23BD81DE29C6B00A7184D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4QQ73282F5;
+						ProvisioningStyle = Automatic;
+					};
+					98D23BF11DE29C6B00A7184D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4QQ73282F5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98D23BD81DE29C6B00A7184D;
+					};
+					98D23BFC1DE29C6B00A7184D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4QQ73282F5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 98D23BD81DE29C6B00A7184D;
+					};
+				};
+			};
+			buildConfigurationList = 98D23BD41DE29C6A00A7184D /* Build configuration list for PBXProject "NumKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98D23BD01DE29C6A00A7184D;
+			productRefGroup = 98D23BDA1DE29C6B00A7184D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98D23BD81DE29C6B00A7184D /* NumKeyBoard */,
+				98D23BF11DE29C6B00A7184D /* NumKeyBoardTests */,
+				98D23BFC1DE29C6B00A7184D /* NumKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98D23BD71DE29C6B00A7184D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D23C261DE2A08900A7184D /* NumberPadDeleteDown@2x.png in Resources */,
+				98D23C291DE2A08900A7184D /* NumberPadButtonDown@2x.png in Resources */,
+				98D23BEC1DE29C6B00A7184D /* LaunchScreen.storyboard in Resources */,
+				98D23BE91DE29C6B00A7184D /* Assets.xcassets in Resources */,
+				98D23C241DE2A08900A7184D /* NumberPadButtonDown.png in Resources */,
+				98D23C271DE2A08900A7184D /* NumberPadDeleteUp.png in Resources */,
+				98D23BE71DE29C6B00A7184D /* Main.storyboard in Resources */,
+				98D23C251DE2A08900A7184D /* NumberPadDeleteDown.png in Resources */,
+				98D23C221DE2A08900A7184D /* NumberPadButtonUp.png in Resources */,
+				98D23C231DE2A08900A7184D /* NumberPadButtonUp@2x.png in Resources */,
+				98D23C281DE2A08900A7184D /* NumberPadDeleteUp@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BF01DE29C6B00A7184D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BFB1DE29C6B00A7184D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98D23BD51DE29C6B00A7184D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D23BE41DE29C6B00A7184D /* ViewController.m in Sources */,
+				98D23BE11DE29C6B00A7184D /* AppDelegate.m in Sources */,
+				98D23BDE1DE29C6B00A7184D /* main.m in Sources */,
+				98D23C121DE29CC700A7184D /* ZZNumberField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BEE1DE29C6B00A7184D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D23BF71DE29C6B00A7184D /* NumKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D23BF91DE29C6B00A7184D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D23C021DE29C6B00A7184D /* NumKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98D23BF41DE29C6B00A7184D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D23BD81DE29C6B00A7184D /* NumKeyBoard */;
+			targetProxy = 98D23BF31DE29C6B00A7184D /* PBXContainerItemProxy */;
+		};
+		98D23BFF1DE29C6B00A7184D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98D23BD81DE29C6B00A7184D /* NumKeyBoard */;
+			targetProxy = 98D23BFE1DE29C6B00A7184D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98D23BE51DE29C6B00A7184D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D23BE61DE29C6B00A7184D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98D23BEA1DE29C6B00A7184D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98D23BEB1DE29C6B00A7184D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98D23C041DE29C6B00A7184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98D23C051DE29C6B00A7184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98D23C071DE29C6B00A7184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98D23C081DE29C6B00A7184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98D23C0A1DE29C6B00A7184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumKeyBoard.app/NumKeyBoard";
+			};
+			name = Debug;
+		};
+		98D23C0B1DE29C6B00A7184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumKeyBoard.app/NumKeyBoard";
+			};
+			name = Release;
+		};
+		98D23C0D1DE29C6B00A7184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumKeyBoard;
+			};
+			name = Debug;
+		};
+		98D23C0E1DE29C6B00A7184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4QQ73282F5;
+				INFOPLIST_FILE = NumKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pwccn.NumKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NumKeyBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98D23BD41DE29C6A00A7184D /* Build configuration list for PBXProject "NumKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D23C041DE29C6B00A7184D /* Debug */,
+				98D23C051DE29C6B00A7184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98D23C061DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D23C071DE29C6B00A7184D /* Debug */,
+				98D23C081DE29C6B00A7184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98D23C091DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D23C0A1DE29C6B00A7184D /* Debug */,
+				98D23C0B1DE29C6B00A7184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98D23C0C1DE29C6B00A7184D /* Build configuration list for PBXNativeTarget "NumKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D23C0D1DE29C6B00A7184D /* Debug */,
+				98D23C0E1DE29C6B00A7184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98D23BD11DE29C6A00A7184D /* Project object */;
+}
